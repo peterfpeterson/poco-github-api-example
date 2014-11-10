@@ -7,7 +7,7 @@
 using namespace Poco;
 using namespace Poco::Net;
 
-int main(int argc, const char *argv[]){
+int main(int argc, const char *argv[]) {
 
 try{
     Poco::Net::initializeSSL();
