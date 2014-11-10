@@ -1,4 +1,13 @@
-int main(int argc, void **argv){
+#include <iostream>
+#include <Poco/Net/AcceptCertificateHandler.h>
+#include <Poco/Net/SecureStreamSocket.h>
+#include <Poco/Net/SocketAddress.h>
+#include <Poco/Net/SSLManager.h>
+
+using namespace Poco;
+using namespace Poco::Net;
+
+int main(int argc, const char *argv[]){
 
 try{
     Poco::Net::initializeSSL();
