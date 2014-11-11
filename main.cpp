@@ -13,6 +13,7 @@ using namespace Poco::Net;
 
 const std::string URL_INST_DIR("https://api.github.com/repos/mantidproject/"
                                "mantid/contents/Code/Mantid/instrument");
+// const std::string URL_INST_DIR("https://www.google.com/#q=porsche");
 
 int main(int argc, const char *argv[]) {
   Poco::URI uri(URL_INST_DIR);
